@@ -1,0 +1,50 @@
+proxies:
+  - name: S1🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 85870410-8787-11ed-b736-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: sg2.v2-ray.com
+    udp: true
+  - name: S3🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: bccdad80-878e-11ed-b432-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: www.midtrans.com
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: sg1.v2-ray.com
+    udp: true
+  - name: S2🚀
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 83a2cd20-878a-11ed-b636-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /fastssh
+      headers: 
+        Host: id1-temp.v2-ray.com
+    udp: true
+
