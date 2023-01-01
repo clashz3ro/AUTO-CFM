@@ -1,6 +1,6 @@
 proxies:
   - name: sg2.v2-ray.com
-    server: 104.26.7.171
+    server: 104.26.5.192
     port: 80
     type: vmess
     uuid: 5007bf30-89d9-11ed-b830-205c6d5f5d78
@@ -16,7 +16,7 @@ proxies:
         Host: sg2.v2-ray.com
     udp: true
   - name: sg1.v2-ray.com
-    server: 104.26.7.171
+    server: 104.26.5.192
     port: 80
     type: vmess
     uuid: 9a5ab9c0-89d9-11ed-b437-205c6d5f5d78
@@ -32,7 +32,7 @@ proxies:
         Host: sg1.v2-ray.com
     udp: true
   - name: s3🚀
-    server: 104.26.7.171
+    server: 104.26.5.192
     port: 80
     type: vmess
     uuid: 392b4789-1d32-439a-8c78-e547205c03d0
@@ -48,7 +48,7 @@ proxies:
         Host: v2ray1.udpgw.com
     udp: true
   - name: trialX749
-    server: 104.26.7.171
+    server: 104.26.5.192
     port: 80
     type: vmess
     uuid: 0065346a-9d0e-4485-ae7e-cc62ba019faa
@@ -64,7 +64,7 @@ proxies:
         Host: ikd-v2.bhm.my.id
     udp: true
   - name: trialX165
-    server: 104.26.7.171
+    server: 104.26.5.192
     port: 80
     type: vmess
     uuid: 7c341895-377d-4d17-8ea0-c7299f62e140
