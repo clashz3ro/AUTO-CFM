@@ -1,9 +1,9 @@
 proxies:
-  - name: s1🚀
+  - name: sg2.v2-ray.com
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 9887ddc0-88d9-11ed-b437-205c6d5f5d78
+    uuid: 5007bf30-89d9-11ed-b830-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -13,23 +13,23 @@ proxies:
     ws-opts: 
       path: /fastssh
       headers: 
-        Host: sg2.v2-ray.com
+        Host: knnn
     udp: true
-  - name: s2🚀
+  - name: sg1.v2-ray.com
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: e4f6b030-88d9-11ed-b135-205c6d5f5d78
+    uuid: 9a5ab9c0-89d9-11ed-b437-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: ksn
+    servername: knnn
     network: ws
     ws-opts: 
       path: /fastssh
       headers: 
-        Host: sg1.v2-ray.com
+        Host: knnn
     udp: true
   - name: s3🚀
     server: 104.26.7.171
