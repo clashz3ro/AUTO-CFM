@@ -47,3 +47,35 @@ proxies:
       headers: 
         Host: v2ray1.udpgw.com
     udp: true
+  - name: trialX749
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 0065346a-9d0e-4485-ae7e-cc62ba019faa
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: bug.com
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: ikd-v2.bhm.my.id
+    udp: true
+  - name: trialX165
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 7c341895-377d-4d17-8ea0-c7299f62e140
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: bug.com
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: do-v2.bhm.my.id
+    udp: true
