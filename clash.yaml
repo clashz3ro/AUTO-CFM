@@ -13,7 +13,7 @@ proxies:
     ws-opts: 
       path: /fastssh
       headers: 
-        Host: knnn
+        Host: sg2.v2-ray.com
     udp: true
   - name: sg1.v2-ray.com
     server: 104.26.7.171
@@ -29,7 +29,7 @@ proxies:
     ws-opts: 
       path: /fastssh
       headers: 
-        Host: knnn
+        Host: sg1.v2-ray.com
     udp: true
   - name: s3🚀
     server: 104.26.7.171
