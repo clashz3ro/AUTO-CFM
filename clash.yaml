@@ -47,35 +47,35 @@ proxies:
       headers: 
         Host: v2ray1.udpgw.com
     udp: true
-  - name: trialX749
+  - name: sg2-temp.v2-ray.com
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 0065346a-9d0e-4485-ae7e-cc62ba019faa
+    uuid: a4e9b8f0-8a4b-11ed-b439-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: bug.com
+    servername: knnn
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /fastssh
       headers: 
-        Host: ikd-v2.bhm.my.id
+        Host: sg2-temp.v2-ray.com
     udp: true
-  - name: trialX165
+  - name: sg-contabo.vmess.sbs
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 7c341895-377d-4d17-8ea0-c7299f62e140
+    uuid: 8bbdf390-8a4c-11ed-b738-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: bug.com
+    servername: knnn
     network: ws
     ws-opts: 
-      path: /vmess
+      path: /fastssh
       headers: 
-        Host: do-v2.bhm.my.id
+        Host: knnn
     udp: true
