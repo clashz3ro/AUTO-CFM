@@ -79,3 +79,18 @@ proxies:
       headers: 
         Host: sg-contabo.vmess.sbs
     udp: true
+  - name: whyvpn-ksnfnfk
+    server: 104.26.5.192
+    port: 80
+    type: vless
+    uuid: c5a16304-21a1-4d17-817c-565838bd1eca
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: chat.sociomile.com
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: do1.kitu.xyz
+    udp: true
