@@ -3,7 +3,7 @@ proxies:
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 5007bf30-89d9-11ed-b830-205c6d5f5d78
+    uuid: ac4236d0-8e9d-11ed-b035-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -19,28 +19,28 @@ proxies:
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 9a5ab9c0-89d9-11ed-b437-205c6d5f5d78
+    uuid: ee300cb0-8e9d-11ed-b934-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: knnn
+    servername: sg1.v2-ray.com
     network: ws
     ws-opts: 
       path: /fastssh
       headers: 
         Host: sg1.v2-ray.com
     udp: true
-  - name: s3🚀
+  - name: v2ray1.udpgw.com
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 392b4789-1d32-439a-8c78-e547205c03d0
+    uuid: 21761ba3-95d3-4c86-8953-4431f677bef2
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: www.midtrans.com
+    servername: hcc
     network: ws
     ws-opts: 
       path: /worryfree
@@ -51,12 +51,12 @@ proxies:
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: a4e9b8f0-8a4b-11ed-b439-205c6d5f5d78
+    uuid: 58348e20-8e9e-11ed-b936-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: knnn
+    servername: sg2-temp.v2-ray.com
     network: ws
     ws-opts: 
       path: /fastssh
@@ -67,27 +67,27 @@ proxies:
     server: 104.26.5.192
     port: 80
     type: vmess
-    uuid: 8bbdf390-8a4c-11ed-b738-205c6d5f5d78
+    uuid: 921080b0-8e9e-11ed-b337-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: knnn
+    servername: sg-contabo.vmess.sbs
     network: ws
     ws-opts: 
       path: /fastssh
       headers: 
         Host: sg-contabo.vmess.sbs
     udp: true
-  - name: whyvpn-ksnfnfk
+  - name: whyvpn-ksndnnf
     server: 104.26.5.192
     port: 80
     type: vless
-    uuid: c5a16304-21a1-4d17-817c-565838bd1eca
+    uuid: 3bfe89d4-f307-4b3c-ad54-f528e8cf7d5a
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: chat.sociomile.com
+    servername: uej
     network: ws
     ws-opts: 
       path: /worryfree
