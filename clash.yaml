@@ -38,7 +38,7 @@ proxies:
     uuid: 21761ba3-95d3-4c86-8953-4431f677bef2
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: hcc
     network: ws
