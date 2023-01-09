@@ -3,12 +3,12 @@ proxies:
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: ac4236d0-8e9d-11ed-b035-205c6d5f5d78
+    uuid: 76a83a70-8fe6-11ed-b134-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: knnn
+    servername: sg2.v2-ray.com
     network: ws
     ws-opts: 
       path: /fastssh
