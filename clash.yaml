@@ -1,6 +1,6 @@
 proxies:
   - name: sg2.v2-ray.com
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vmess
     uuid: 76a83a70-8fe6-11ed-b134-205c6d5f5d78
@@ -16,7 +16,7 @@ proxies:
         Host: sg2.v2-ray.com
     udp: true
   - name: sg1.v2-ray.com
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vmess
     uuid: ee300cb0-8e9d-11ed-b934-205c6d5f5d78
@@ -32,7 +32,7 @@ proxies:
         Host: sg1.v2-ray.com
     udp: true
   - name: v2ray1.udpgw.com
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vmess
     uuid: 21761ba3-95d3-4c86-8953-4431f677bef2
@@ -48,7 +48,7 @@ proxies:
         Host: v2ray1.udpgw.com
     udp: true
   - name: sg2-temp.v2-ray.com
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vmess
     uuid: 58348e20-8e9e-11ed-b936-205c6d5f5d78
@@ -64,7 +64,7 @@ proxies:
         Host: sg2-temp.v2-ray.com
     udp: true
   - name: sg-contabo.vmess.sbs
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vmess
     uuid: 921080b0-8e9e-11ed-b337-205c6d5f5d78
@@ -80,7 +80,7 @@ proxies:
         Host: sg-contabo.vmess.sbs
     udp: true
   - name: whyvpn-ksndnnf
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vless
     uuid: 3bfe89d4-f307-4b3c-ad54-f528e8cf7d5a
@@ -95,7 +95,7 @@ proxies:
         Host: do1.kitu.xyz
     udp: true
   - name: v2ray-vless-ws-ntls-gegeserver
-    server: 104.26.7.171
+    server: ::ffff:681a:70e
     port: 80
     type: vless
     uuid: 3a065cea-8ca2-11ed-be2d-06b3e42ba9c8
