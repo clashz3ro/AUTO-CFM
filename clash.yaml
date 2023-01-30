@@ -1,14 +1,14 @@
 proxies:
-  - name: Vmess Singapore OVH-2 2023-02-06
-    server: sg-5.0rd.net
+  - name: dynamic-sg1b.obfs.xyz
+    server: 167.71.204.159
     port: 8080
     type: vmess
-    uuid: bc0895e0-a0a6-11ed-b433-205c6d5f5d78
+    uuid: df2f146d-0e7d-4d73-ae62-8590d786d95c
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: false
-    servername: knnn
+    skip-cert-verify: true
+    servername: ksk
     network: ws
     ws-opts: 
       path: http://tsel.me/worryfree
