@@ -31,3 +31,19 @@
       headers: 
         Host: instagram.com
     udp: true
+  - name: Vmess Singapore OVH-2 2023-02-06
+    server: 51.79.146.225
+    port: 8080
+    type: vmess
+    uuid: 78606920-a0ac-11ed-b838-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: isnr
+    network: ws
+    ws-opts: 
+      path: http://tsel.me/worryfree
+      headers: 
+        Host: instagram.com
+    udp: true
