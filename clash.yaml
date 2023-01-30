@@ -1,4 +1,4 @@
-proxies:
+ proxies:
   - name: dynamic-sg1b.obfs.xyz
     server: 167.71.204.159
     port: 8080
@@ -9,6 +9,22 @@ proxies:
     tls: false
     skip-cert-verify: true
     servername: ksk
+    network: ws
+    ws-opts: 
+      path: http://tsel.me/worryfree
+      headers: 
+        Host: instagram.com
+    udp: true
+  - name: v2ray1.udpgw.com
+    server: 209.97.173.86
+    port: 8080
+    type: vmess
+    uuid: 8b31388c-047a-4796-82ec-1dae3bbc589b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ksnen
     network: ws
     ws-opts: 
       path: http://tsel.me/worryfree
