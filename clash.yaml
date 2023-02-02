@@ -1,7 +1,7 @@
  proxies:
   - name: dynamic-sg1b.obfs.xyz
     server: 167.71.204.159
-    port: 8080
+    port: 2086
     type: vmess
     uuid: df2f146d-0e7d-4d73-ae62-8590d786d95c
     alterId: 0
@@ -17,7 +17,7 @@
     udp: true
   - name: v2ray1.udpgw.com
     server: 209.97.173.86
-    port: 8080
+    port: 2086
     type: vmess
     uuid: 8b31388c-047a-4796-82ec-1dae3bbc589b
     alterId: 0
@@ -25,6 +25,22 @@
     tls: false
     skip-cert-verify: true
     servername: ksnen
+    network: ws
+    ws-opts: 
+      path: http://tsel.me/worryfree
+      headers: 
+        Host: instagram.com
+    udp: true
+  - name: createssh.net-osofkfkg
+    server: sg2ray.createxray.us
+    port: 2086
+    type: vmess
+    uuid: cf3aa703-5e74-44bf-838d-d8aadf1e273c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: hsbda
     network: ws
     ws-opts: 
       path: http://tsel.me/worryfree
