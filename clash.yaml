@@ -1,81 +1,81 @@
 proxies:
-  - name: Vmess Singapore OVH-2 2023-02-10
-    server: sg-5.0rd.net
-    port: 2086
-    type: vmess
-    uuid: f59270a0-a325-11ed-b831-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: sidbfnfm
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: instagram.com
-    udp: true
-  - name: Vmess Singapore HE-1 2023-02-10
-    server: sg-1.0rd.net
-    port: 2086
-    type: vmess
-    uuid: 51386320-a326-11ed-b739-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: uee
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: instagram.com
-    udp: true  
-  - name: v2ray1.udpgw.com
-    server: v2ray1.udpgw.com
-    port: 2086
-    type: vmess
-    uuid: fc421676-ddb6-4c35-a390-9634da87ab57
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: ueheh
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: instagram.com
-    udp: true
-  - name: Vmess Singapore Melbi 2 2023-02-10
-    server: sg-8.0rd.net
-    port: 2086
-    type: vmess
-    uuid: d43d0eb0-a326-11ed-b432-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: wjejej
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: instagram.com
-    udp: true
-    - name: Vmess Singapore AMP-2 2023-02-10
-    server: sg-7.0rd.net
-    port: 2086
-    type: vmess
-    uuid: 0ea60790-a327-11ed-b133-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    servername: jebrb
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: instagram.com
-    udp: true
+ - name: Vmess Singapore OVH-2 2023-02-10
+   server: sg-5.0rd.net
+   port: 2086
+   type: vmess
+   uuid: f59270a0-a325-11ed-b831-205c6d5f5d78
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: false
+   servername: sidbfnfm
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: instagram.com
+   udp: true
+ - name: Vmess Singapore HE-1 2023-02-10
+   server: sg-1.0rd.net
+   port: 2086
+   type: vmess
+   uuid: 51386320-a326-11ed-b739-205c6d5f5d78
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: false
+   servername: uee
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: instagram.com
+   udp: true  
+ - name: v2ray1.udpgw.com
+   server: v2ray1.udpgw.com
+   port: 2086
+   type: vmess
+   uuid: fc421676-ddb6-4c35-a390-9634da87ab57
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: true
+   servername: ueheh
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: instagram.com
+   udp: true
+ - name: Vmess Singapore Melbi 2 2023-02-10
+   server: sg-8.0rd.net
+   port: 2086
+   type: vmess
+   uuid: d43d0eb0-a326-11ed-b432-205c6d5f5d78
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: false
+   servername: wjejej
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: instagram.com
+   udp: true
+ - name: Vmess Singapore AMP-2 2023-02-10
+   server: sg-7.0rd.net
+   port: 2086
+   type: vmess
+   uuid: 0ea60790-a327-11ed-b133-205c6d5f5d78
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: false
+   servername: jebrb
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: instagram.com
+   udp: true
