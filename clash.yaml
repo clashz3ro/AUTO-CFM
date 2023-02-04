@@ -13,7 +13,7 @@ proxies:
    ws-opts: 
      path: http://tsel.me/worryfree
      headers: 
-       Host: instagram.com
+       Host: m.mobilelegends.com
    udp: true
  - name: Vmess Singapore Melbi 2 2023-02-10
    server: sg-8.0rd.net
@@ -29,7 +29,7 @@ proxies:
    ws-opts: 
      path: http://tsel.me/worryfree
      headers: 
-       Host: instagram.com
+       Host: m.mobilelegends.com
    udp: true
  - name: Vmess Singapore AMP-2 2023-02-10
    server: sg-7.0rd.net
@@ -45,5 +45,5 @@ proxies:
    ws-opts: 
      path: http://tsel.me/worryfree
      headers: 
-       Host: instagram.com
+       Host: m.mobilelegends.com
    udp: true
