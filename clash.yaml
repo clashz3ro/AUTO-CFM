@@ -1,36 +1,4 @@
 proxies:
- - name: Vmess Singapore OVH-2 2023-02-10
-   server: sg-5.0rd.net
-   port: 2082
-   type: vmess
-   uuid: f59270a0-a325-11ed-b831-205c6d5f5d78
-   alterId: 0
-   cipher: auto
-   tls: false
-   skip-cert-verify: false
-   servername: sidbfnfm
-   network: ws
-   ws-opts: 
-     path: http://tsel.me/worryfree
-     headers: 
-       Host: instagram.com
-   udp: true
- - name: Vmess Singapore HE-1 2023-02-10
-   server: sg-1.0rd.net
-   port: 2082
-   type: vmess
-   uuid: 51386320-a326-11ed-b739-205c6d5f5d78
-   alterId: 0
-   cipher: auto
-   tls: false
-   skip-cert-verify: false
-   servername: uee
-   network: ws
-   ws-opts: 
-     path: http://tsel.me/worryfree
-     headers: 
-       Host: instagram.com
-   udp: true  
  - name: v2ray1.udpgw.com
    server: v2ray1.udpgw.com
    port: 2082
