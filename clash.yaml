@@ -48,18 +48,18 @@ proxies:
        Host: m.mobilelegends.com
    udp: true
  - name: dynamic-sg1b.obfs.xyz
-    server: dynamic-sg1b.obfs.xyz
-    port: 2082
-    type: vmess
-    uuid: e82cc3e2-571c-43f1-81a6-2ca24f4142dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: jsdjdkfo
-    network: ws
-    ws-opts: 
-      path: http://tsel.me/worryfree
-      headers: 
-        Host: m.mobilelegends.com
-    udp: true
+   server: dynamic-sg1b.obfs.xyz
+   port: 2082
+   type: vmess
+   uuid: e82cc3e2-571c-43f1-81a6-2ca24f4142dc
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: true
+   servername: jsdjdkfo
+   network: ws
+   ws-opts: 
+     path: http://tsel.me/worryfree
+     headers: 
+       Host: m.mobilelegends.com
+   udp: true
