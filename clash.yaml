@@ -75,7 +75,7 @@ proxies:
    servername: 
    network: ws
    ws-opts: 
-     path: /vmws
+     path: http://tsel.me/worryfree
      headers: 
        Host: m.mobilelegends.com
    udp: true
