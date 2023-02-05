@@ -63,3 +63,19 @@ proxies:
      headers: 
        Host: m.mobilelegends.com
    udp: true
+ - name: SG+VMESS-WS NTLS(2023-02-13)
+   server: SG1.socifiles.com
+   port: 80
+   type: vmess
+   uuid: 74690d90-a57c-11ed-8708-1239d0255272
+   alterId: 0
+   cipher: auto
+   tls: false
+   skip-cert-verify: false
+   servername: 
+   network: ws
+   ws-opts: 
+     path: /vmws
+     headers: 
+       Host: m.mobilelegends.com
+    udp: true
