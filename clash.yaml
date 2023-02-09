@@ -1,78 +1,30 @@
 proxies:
- - name: v2ray1.udpgw.com
-   server: v2ray1.udpgw.com
+ - name: dynamic-sg2b.obfs.xyz
+   server: dynamic-sg2b.obfs.xyz
    port: 2082
    type: vmess
-   uuid: fc421676-ddb6-4c35-a390-9634da87ab57
+   uuid: de9077fc-600d-4f2d-93f2-392140a59cc5
    alterId: 0
    cipher: auto
    tls: false
    skip-cert-verify: true
-   servername: ueheh
+   servername: jsndn
    network: ws
    ws-opts: 
      path: http://tsel.me/worryfree
      headers: 
        Host: m.mobilelegends.com
    udp: true
- - name: Vmess Singapore Melbi 2 2023-02-10
-   server: sg-8.0rd.net
+ - name: v2ray2.udpgw.com
+   server: v2ray2.udpgw.com
    port: 2082
    type: vmess
-   uuid: d43d0eb0-a326-11ed-b432-205c6d5f5d78
-   alterId: 0
-   cipher: auto
-   tls: false
-   skip-cert-verify: false
-   servername: wjejej
-   network: ws
-   ws-opts: 
-     path: http://tsel.me/worryfree
-     headers: 
-       Host: m.mobilelegends.com
-   udp: true
- - name: Vmess Singapore AMP-2 2023-02-10
-   server: sg-7.0rd.net
-   port: 2082
-   type: vmess
-   uuid: 0ea60790-a327-11ed-b133-205c6d5f5d78
-   alterId: 0
-   cipher: auto
-   tls: false
-   skip-cert-verify: false
-   servername: jebrb
-   network: ws
-   ws-opts: 
-     path: http://tsel.me/worryfree
-     headers: 
-       Host: m.mobilelegends.com
-   udp: true
- - name: dynamic-sg1b.obfs.xyz
-   server: dynamic-sg1b.obfs.xyz
-   port: 2082
-   type: vmess
-   uuid: e82cc3e2-571c-43f1-81a6-2ca24f4142dc
+   uuid: 4a50f95f-1f03-409f-94d0-7d1d68c9124e
    alterId: 0
    cipher: auto
    tls: false
    skip-cert-verify: true
-   servername: jsdjdkfo
-   network: ws
-   ws-opts: 
-     path: http://tsel.me/worryfree
-     headers: 
-       Host: m.mobilelegends.com
-   udp: true
- - name: SG+VMESS-WS NTLS(2023-02-13)
-   server: SG1.socifiles.com
-   port: 2082
-   type: vmess
-   uuid: 74690d90-a57c-11ed-8708-1239d0255272
-   alterId: 0
-   cipher: auto
-   tls: false
-   skip-cert-verify: false
-   servername: 
+   servername: jdjdjd
    network: ws
    ws-opts: 
      path: http://tsel.me/worryfree
