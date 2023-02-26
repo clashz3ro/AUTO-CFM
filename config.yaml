@@ -129,7 +129,7 @@ proxy-providers:
     interval: '15'
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: http://hi.bonds.id/ping
       interval: '15'
 proxy-groups:
 - name: SIMASTER-MAGISK-AUTO
@@ -137,7 +137,7 @@ proxy-groups:
   interval: '15'
   tolerance: '99'
   disable-udp: false
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   proxies:
   - KONEKSI-PING
   - KONEKSI-FALLBACK
@@ -147,15 +147,15 @@ proxy-groups:
   interval: '15'
   tolerance: '99'
   disable-udp: false
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   use:
     - KONEKSI
 - name: KONEKSI-FALLBACK
-  type: select
+  type: fallback
   disable-udp: false
   use:
     - KONEKSI
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   interval: '15'
 - name: KONEKSI-LOADBALANCE
   type: load-balance
@@ -163,7 +163,7 @@ proxy-groups:
   disable-udp: false
   use:
     - KONEKSI
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   interval: '15'
 - name: WHATSAPP
   type: select
@@ -171,7 +171,7 @@ proxy-groups:
   proxies:
     - SIMASTER-MAGISK-AUTO
     - DIRECT
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   interval: '15'
 - name: GAMING
   type: select
@@ -179,7 +179,7 @@ proxy-groups:
   proxies:
     - SIMASTER-MAGISK-AUTO
     - DIRECT
-  url: http://www.gstatic.com/generate_204
+  url: http://hi.bonds.id/ping
   interval: '15'
 rule-providers:
   Game:
