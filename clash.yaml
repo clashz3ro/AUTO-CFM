@@ -111,3 +111,19 @@ proxies:
       headers: 
         Host: sg-7.0rd.net
     udp: true
+  - name: 23 🇮🇩 MEDIA ANTAR NUSA PT. WS SNI TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 4857f925-fab7-4fbc-bc17-d1d4637a65bc
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: idmws.mainssh.xyz
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idmws.mainssh.xyz
