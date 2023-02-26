@@ -16,7 +16,7 @@ proxies:
         Host: dynamic-sg3b.obfs.xyz
     udp: true
   - name: SG+VMESS-WS NTLS(2023-03-03)
-    server: sg1.socifiles.com
+    server: udemy.com
     port: 80
     type: vmess
     uuid: 14baad40-b45a-11ed-91e8-1239d0255272
@@ -29,7 +29,7 @@ proxies:
     ws-opts: 
       path: /vmws
       headers: 
-        Host: 
+        Host: sg1.socifiles.com
     udp: true
   - name: R80:Vmess Singapore OVH-2 2023-03-03
     server: udemy.com
