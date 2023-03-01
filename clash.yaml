@@ -159,3 +159,35 @@ proxies:
       path: /files
       headers: 
         Host: sg-ovh2.1server.co
+  - name: 2143 🇸🇬 AS-26496-GO-DADDY-COM-LLC WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sg-1.sharecentre.online
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /shirker
+      headers: 
+        Host: sg-1.sharecentre.online
+  - name: 248 🇸🇬 OVH SAS WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /files
+      headers: 
+        Host: sg-ovh2.1server.co
