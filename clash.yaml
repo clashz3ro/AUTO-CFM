@@ -1,12 +1,12 @@
 proxies:
   - name: dynamic-sg3b.obfs.xyz
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: 19678374-9f5e-4f1e-ae02-418c8b9a9c96
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: dynamic-sg3b.obfs.xyz
     network: ws
@@ -17,11 +17,11 @@ proxies:
     udp: true
   - name: 1905 🇸🇬 G-CORE LABS S.A. WS CDN TLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: sg-gcore.sharecentre.online
@@ -33,11 +33,11 @@ proxies:
         Host: sg-gcore.sharecentre.online
   - name: 9 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: ab8e5a38-8181-4b51-a5d2-c3d79fbb7d72
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: agin.drinkdrunk.my.id
@@ -49,11 +49,11 @@ proxies:
         Host: agin.drinkdrunk.my.id
   - name: 23 🇮🇩 MEDIA ANTAR NUSA PT. WS SNI TLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: 4857f925-fab7-4fbc-bc17-d1d4637a65bc
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: idmws.mainssh.xyz
@@ -65,11 +65,11 @@ proxies:
         Host: idmws.mainssh.xyz
   - name: 1631 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: jpjoq.ftvpn.xyz
@@ -81,11 +81,11 @@ proxies:
         Host: jpjoq.ftvpn.xyz
   - name: 4 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: b6b51b24-e72b-4f0e-917d-8ad6d5aad3fa
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: sgdo2.zein-store.live
@@ -97,11 +97,11 @@ proxies:
         Host: sgdo2.zein-store.live
   - name: 14 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
     uuid: b6b51b24-e72b-4f0e-917d-8ad6d5aad3fa
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
     servername: sgdo2.zein-store.live
