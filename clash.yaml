@@ -1,4 +1,20 @@
 proxies:
+  - name: v2ray3.udpgw.com
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 7e9f9800-fbba-45b7-85e4-0e5bb61e0d32
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: udemy.com
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: v2ray3.udpgw.com
+    udp: true
   - name: dynamic-sg3b.obfs.xyz
     server: udemy.com
     port: 80
