@@ -1,41 +1,25 @@
 proxies:
-  - name: v2ray3.udpgw.com
+  - name: 1818 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN TLS
     server: udemy.com
-    port: 80
+    port: 443
     type: vmess
-    uuid: 7e9f9800-fbba-45b7-85e4-0e5bb61e0d32
-    alterId: 0
+    uuid: 8f28bbbd-7dc3-4427-a8a7-595796d9ff7d
     cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: udemy.com
-    network: ws
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: v2ray3.udpgw.com
+    tls: true
     udp: true
-  - name: dynamic-sg3b.obfs.xyz
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: 19678374-9f5e-4f1e-ae02-418c8b9a9c96
+    skip-cert-verify: true
+    servername: sg-v.sshmax.xyz
+    network: ws
     alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: dynamic-sg3b.obfs.xyz
-    network: ws
     ws-opts: 
-      path: /worryfree
+      path: /vmess
       headers: 
-        Host: dynamic-sg3b.obfs.xyz
-    udp: true
-  - name: 1731 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+        Host: sg-v.sshmax.xyz
+  - name: 73 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
-    uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+    uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
     cipher: auto
     tls: false
     udp: true
@@ -44,26 +28,42 @@ proxies:
     network: ws
     alterId: 0
     ws-opts: 
-      path: /v2ray
+      path: /TG:@hkaa0
       headers: 
-        Host: 70pt.autocf.site
-  - name: 1980 🇸🇬 G-CORE LABS S.A. WS CDN TLS
+        Host: lin.d.sg.wyhkaa0.gq
+  - name: 208 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
-    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    uuid: 6a091996-d012-4e5e-8448-8abe681eab99
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: sg-gcore.sharecentre.online
+    servername: sg.718398.xyz
     network: ws
     alterId: 0
     ws-opts: 
-      path: /shirker
+      path: /ssvcus
       headers: 
-        Host: sg-gcore.sharecentre.online
-  - name: 277 🇸🇬 OVH SAS WS CDN NTLS
+        Host: sg.718398.xyz
+  - name: 1 🇸🇬 AS-CHOOPA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: f.tun4.live
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /xrayvws
+      headers: 
+        Host: f.tun4.live
+  - name: 83 🇸🇬 OVH SAS WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
@@ -76,58 +76,26 @@ proxies:
     network: ws
     alterId: 0
     ws-opts: 
-      path: /files
+      path: /
       headers: 
         Host: sg-ovh2.1server.co
-  - name: 1981 🇸🇬 OVH SAS WS CDN TLS
+  - name: 10 🇮🇩 PT. DATACOMM DIANGRAHA WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
-    uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
+    uuid: 570b0db5-8cfe-4a2e-a38d-ef5baf057de2
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: sg1-v.sshmax.xyz
+    servername: dtc.nirezzvpn.my.id
     network: ws
     alterId: 0
     ws-opts: 
       path: /vmess
       headers: 
-        Host: sg1-v.sshmax.xyz
-  - name: 1631 🇸🇬 AMAZON-02 WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /ws?ed=2048
-      headers: 
-        Host: hk-iv.somnode.top
-  - name: 1673 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: jpjoq.ftvpn.xyz
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: jpjoq.ftvpn.xyz
-  - name: 318 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
+        Host: dtc.nirezzvpn.my.id
+  - name: 1748 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
@@ -143,3 +111,35 @@ proxies:
       path: /vmess
       headers: 
         Host: jpjoq.ftvpn.xyz
+  - name: 8 🇮🇩 PT. DATACOMM DIANGRAHA WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 570b0db5-8cfe-4a2e-a38d-ef5baf057de2
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: dtc.nirezzvpn.my.id
+  - name: 1813 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: id.artunnel57.host
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess-tls
+      headers: 
+        Host: id.artunnel57.host
