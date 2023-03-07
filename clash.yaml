@@ -1,25 +1,25 @@
 proxies:
-  - name: 1818 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN TLS
+  - name: 25 🇮🇩 PT DEWA BISNIS DIGITAL WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
-    uuid: 8f28bbbd-7dc3-4427-a8a7-595796d9ff7d
+    uuid: c5c791f8-0a79-47e3-be3c-f1bdfaf959a7
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: sg-v.sshmax.xyz
+    servername: id-dewabiz.nexsus.my.id
     network: ws
     alterId: 0
     ws-opts: 
       path: /vmess
       headers: 
-        Host: sg-v.sshmax.xyz
-  - name: 73 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
+        Host: id-dewabiz.nexsus.my.id
+  - name: 19 🇮🇩 PT DEWA BISNIS DIGITAL WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
-    uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
+    uuid: c5c791f8-0a79-47e3-be3c-f1bdfaf959a7
     cipher: auto
     tls: false
     udp: true
@@ -28,25 +28,57 @@ proxies:
     network: ws
     alterId: 0
     ws-opts: 
-      path: /TG:@hkaa0
+      path: /vmess
       headers: 
-        Host: lin.d.sg.wyhkaa0.gq
-  - name: 208 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
+        Host: id-dewabiz.nexsus.my.id
+  - name: 2 🇸🇬 AS-CHOOPA WS CDN NTLS
     server: udemy.com
-    port: 443
+    port: 80
     type: vmess
-    uuid: 6a091996-d012-4e5e-8448-8abe681eab99
+    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
-    servername: sg.718398.xyz
+    servername: 
     network: ws
     alterId: 0
     ws-opts: 
-      path: /ssvcus
+      path: /xrayvws
       headers: 
-        Host: sg.718398.xyz
+        Host: f.tun4.live
+  - name: 116 🇸🇬 OVH SAS WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /files
+      headers: 
+        Host: sg-ovh2.1server.co
+  - name: 380 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: zzsg.nmsl.pics
   - name: 1 🇸🇬 AS-CHOOPA WS CDN TLS
     server: udemy.com
     port: 443
@@ -63,83 +95,3 @@ proxies:
       path: /xrayvws
       headers: 
         Host: f.tun4.live
-  - name: 83 🇸🇬 OVH SAS WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: sg-ovh2.1server.co
-  - name: 10 🇮🇩 PT. DATACOMM DIANGRAHA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: 570b0db5-8cfe-4a2e-a38d-ef5baf057de2
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: dtc.nirezzvpn.my.id
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: dtc.nirezzvpn.my.id
-  - name: 1748 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: jpjoq.ftvpn.xyz
-  - name: 8 🇮🇩 PT. DATACOMM DIANGRAHA WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: 570b0db5-8cfe-4a2e-a38d-ef5baf057de2
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: dtc.nirezzvpn.my.id
-  - name: 1813 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: id.artunnel57.host
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess-tls
-      headers: 
-        Host: id.artunnel57.host
