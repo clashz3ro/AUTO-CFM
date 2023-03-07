@@ -1,116 +1,4 @@
 proxies:
-  - name: 380 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: zzsg.nmsl.pics
-  - name: 2 🇸🇬 AS-CHOOPA WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /xrayvws
-      headers: 
-        Host: f.tun4.live
-  - name: 116 🇸🇬 OVH SAS WS CDN NTLS
-    server: udemy.com
-    port: 8080
-    type: vmess
-    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /files
-      headers: 
-        Host: sg-ovh2.1server.co
-  - name: 1 🇸🇬 AS-CHOOPA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: f.tun4.live
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /xrayvws
-      headers: 
-        Host: f.tun4.live
-  - name: 480 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: udemy.com
-    port: 2095
-    type: vmess
-    uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /TG:@hkaa0
-      headers: 
-        Host: lin.d.sg.wyhkaa0.gq
-  - name: 25 🇮🇩 PT DEWA BISNIS DIGITAL WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: c5c791f8-0a79-47e3-be3c-f1bdfaf959a7
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: id-dewabiz.nexsus.my.id
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: id-dewabiz.nexsus.my.id
-  - name: 462 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: bde760cf-482a-444d-be2c-66415bcd6191
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: idcloud.rayzellinhere.me
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: idcloud.rayzellinhere.me
   - name: 478 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
     server: udemy.com
     port: 443
@@ -143,22 +31,6 @@ proxies:
       path: /vmess
       headers: 
         Host: jpjoq.ftvpn.xyz
-  - name: 460 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN NTLS
-    server: udemy.com
-    port: 80
-    type: vmess
-    uuid: bde760cf-482a-444d-be2c-66415bcd6191
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: idcloud.rayzellinhere.me
   - name: 19 🇮🇩 PT DEWA BISNIS DIGITAL WS CDN NTLS
     server: udemy.com
     port: 80
@@ -175,3 +47,131 @@ proxies:
       path: /vmess
       headers: 
         Host: id-dewabiz.nexsus.my.id
+  - name: 460 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: bde760cf-482a-444d-be2c-66415bcd6191
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idcloud.rayzellinhere.me
+  - name: 462 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: bde760cf-482a-444d-be2c-66415bcd6191
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: idcloud.rayzellinhere.me
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idcloud.rayzellinhere.me
+  - name: 25 🇮🇩 PT DEWA BISNIS DIGITAL WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: c5c791f8-0a79-47e3-be3c-f1bdfaf959a7
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: id-dewabiz.nexsus.my.id
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id-dewabiz.nexsus.my.id
+  - name: 380 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: zzsg.nmsl.pics
+  - name: 116 🇸🇬 OVH SAS WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /files
+      headers: 
+        Host: sg-ovh2.1server.co
+  - name: 1 🇸🇬 AS-CHOOPA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: f.tun4.live
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /xrayvws
+      headers: 
+        Host: f.tun4.live
+  - name: 2 🇸🇬 AS-CHOOPA WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /xrayvws
+      headers: 
+        Host: f.tun4.live
+  - name: 480 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /TG:@hkaa0
+      headers: 
+        Host: lin.d.sg.wyhkaa0.gq
