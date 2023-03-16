@@ -126,15 +126,15 @@ proxy-providers:
     type: http
     path: ./confs/clash.yaml
     url: "https://raw.githubusercontent.com/clashz3ro/AUTO-CFM/main/clash.yaml"
-    interval: '15'
+    interval: '60'
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
-      interval: '15'
+      interval: '60'
 proxy-groups:
 - name: SIMASTER-MAGISK-AUTO
   type: url-test    
-  interval: '15'
+  interval: '60'
   tolerance: '99'
   disable-udp: false
   url: http://www.gstatic.com/generate_204
@@ -144,7 +144,7 @@ proxy-groups:
   - KONEKSI-LOADBALANCE  
 - name: KONEKSI-PING
   type: url-test    
-  interval: '15'
+  interval: '60'
   tolerance: '99'
   disable-udp: false
   url: http://www.gstatic.com/generate_204
@@ -156,7 +156,7 @@ proxy-groups:
   use:
     - KONEKSI
   url: http://www.gstatic.com/generate_204
-  interval: '15'
+  interval: '60'
 - name: KONEKSI-LOADBALANCE
   type: load-balance
   strategy: round-robin
@@ -164,7 +164,7 @@ proxy-groups:
   use:
     - KONEKSI
   url: http://www.gstatic.com/generate_204
-  interval: '15'
+  interval: '60'
 - name: WHATSAPP
   type: select
   disable-udp: false
@@ -172,7 +172,7 @@ proxy-groups:
     - SIMASTER-MAGISK-AUTO
     - DIRECT
   url: http://www.gstatic.com/generate_204
-  interval: '15'
+  interval: '60'
 - name: GAMING
   type: select
   disable-udp: false
@@ -180,44 +180,44 @@ proxy-groups:
     - SIMASTER-MAGISK-AUTO
     - DIRECT
   url: http://www.gstatic.com/generate_204
-  interval: '15'
+  interval: '60'
 rule-providers:
   Game:
     type: http
     behavior: domain
     path: ./confs/rule-game.yaml
     url: https://bit.ly/3X2SvcL
-    interval: 15
+    interval: 60
   Sosmed:
     type: http
     behavior: domain
     path: ./confs/rule-sosmed.yaml
     url: https://bit.ly/3I4HG5I
-    interval: 15
+    interval: 60
   Stream:
     type: http
     behavior: domain
     path: ./confs/rule-stream.yaml
     url: https://bit.ly/3PU6RJP
-    interval: 15
+    interval: 60
   Olshop:
     type: http
     behavior: domain
     path: ./confs/rule-olshop.yaml
     url: https://bit.ly/3Wp85PH
-    interval: 15
+    interval: 60
   Bank:
     type: http
     behavior: domain
     path: ./confs/rule-bank.yaml
     url: https://bit.ly/3hN7JUh
-    interval: 15
+    interval: 60
   Whatsapp:
     type: http
     behavior: domain
     path: ./confs/rule-whatsapp.yaml
     url: http://bit.ly/3Vkdh6g
-    interval: 15
+    interval: 60
 script:
   code: |
     def main(ctx, metadata):
