@@ -2,7 +2,7 @@ proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
   - name: 1 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
@@ -18,7 +18,7 @@ proxies:
       headers: 
         Host: fightertunnel.xyz
   - name: 352 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
@@ -34,7 +34,7 @@ proxies:
       headers: 
         Host: zzsg.nmsl.pics
   - name: 1956 🇸🇬 ORACLE-BMC-31898 WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 2052
     type: vmess
     uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc
@@ -50,7 +50,7 @@ proxies:
       headers: 
         Host: sgtippos.76898102.xyz
   - name: 234 🇸🇬 OVH SAS WS CDN TLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 443
     type: vmess
     uuid: 6aacb8f0-c1b9-11ed-b035-205c6d5f5d78
@@ -66,7 +66,7 @@ proxies:
       headers: 
         Host: 98b5.v9966.shop
   - name: 1957 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 2095
     type: vmess
     uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc
@@ -82,7 +82,7 @@ proxies:
       headers: 
         Host: amstdtre.76898102.xyz
   - name: 2073 🇸🇬 OVH SAS WS CDN TLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 443
     type: vmess
     uuid: fbfa0325-cf16-4134-b17f-e0897ad3b2db
@@ -98,7 +98,7 @@ proxies:
       headers: 
         Host: sg3-ray.ipservers.xyz
   - name: 1922 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 2095
     type: vmess
     uuid: f1552f53-e5e1-30dc-8e2f-22285b7137fe
@@ -114,7 +114,7 @@ proxies:
       headers: 
         Host: amstdtre.76898102.xyz
   - name: 2071 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: cdcafe90-c4bd-11ed-b734-205c6d5f5d78
@@ -130,7 +130,7 @@ proxies:
       headers: 
         Host: sg-3.0rd.net
   - name: 138 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 8080
     type: vmess
     uuid: 76aed4f5-5b57-4d04-f3d9-89efffd5b832
@@ -146,7 +146,7 @@ proxies:
       headers: 
         Host: sg316.wyhkaa0.ga
   - name: 105 🇸🇬 OVH SAS WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 8080
     type: vmess
     uuid: 397489e0-a0b4-11ed-b443-1577c1651679
@@ -162,7 +162,7 @@ proxies:
       headers: 
         Host: sg-ovh2.1server.co
   - name: 901 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN TLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 443
     type: vmess
     uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
@@ -178,7 +178,7 @@ proxies:
       headers: 
         Host: jpjoq.ftvpn.xyz
   - name: 464 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
-    server: ::ffff:681a:7ab
+    server: 104.26.7.171
     port: 80
     type: vmess
     uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
