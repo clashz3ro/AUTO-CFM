@@ -1,56 +1,24 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 1 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: 104.18.160.90
-    port: 80
+  - name: 2170 🇸🇬 OVH SAS WS CDN TLS
+    server: udemy.com
+    port: 443
     type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
     cipher: auto
-    tls: false
+    tls: true
     udp: true
     skip-cert-verify: true
-    servername: 
+    servername: sg1-v.sshmax.xyz
     network: ws
     alterId: 0
     ws-opts: 
       path: /vmess
       headers: 
-        Host: fightertunnel.xyz
-  - name: 352 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: 104.18.160.90
-    port: 80
-    type: vmess
-    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: zzsg.nmsl.pics
-  - name: 1956 🇸🇬 ORACLE-BMC-31898 WS CDN NTLS
-    server: 104.18.160.90
-    port: 2052
-    type: vmess
-    uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /miao
-      headers: 
-        Host: sgtippos.76898102.xyz
-  - name: 234 🇸🇬 OVH SAS WS CDN TLS
-    server: 104.18.160.90
+        Host: sg1-v.sshmax.xyz
+  - name: 1798 🇸🇬 OVH SAS WS CDN TLS
+    server: udemy.com
     port: 443
     type: vmess
     uuid: 6aacb8f0-c1b9-11ed-b035-205c6d5f5d78
@@ -65,24 +33,8 @@ proxies:
       path: /
       headers: 
         Host: 98b5.v9966.shop
-  - name: 1957 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: 104.18.160.90
-    port: 2095
-    type: vmess
-    uuid: 5481eae4-43fb-35e3-a3a3-b9b9961ca1bc
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /adwrfeyiyuisfesf
-      headers: 
-        Host: amstdtre.76898102.xyz
-  - name: 2073 🇸🇬 OVH SAS WS CDN TLS
-    server: 104.18.160.90
+  - name: 1842 🇸🇬 OVH SAS WS CDN TLS
+    server: udemy.com
     port: 443
     type: vmess
     uuid: fbfa0325-cf16-4134-b17f-e0897ad3b2db
@@ -97,11 +49,11 @@ proxies:
       path: /JAGOANSSH/
       headers: 
         Host: sg3-ray.ipservers.xyz
-  - name: 1922 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: 104.18.160.90
-    port: 2095
+  - name: 1818 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+    server: udemy.com
+    port: 80
     type: vmess
-    uuid: f1552f53-e5e1-30dc-8e2f-22285b7137fe
+    uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78
     cipher: auto
     tls: false
     udp: true
@@ -110,11 +62,91 @@ proxies:
     network: ws
     alterId: 0
     ws-opts: 
-      path: /adwrfeyiyuisfesf
+      path: /
       headers: 
-        Host: amstdtre.76898102.xyz
-  - name: 2071 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
-    server: 104.18.160.90
+        Host: cbb8.v9966.shop
+  - name: 1863 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: ec703de0-c349-11ed-b030-205c6d5f5d78
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /1n2a7lej
+      headers: 
+        Host: sg-3.0rd.net
+  - name: 2098 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: 1lk9q.ftvpn.me
+  - name: 5 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 4d3932ac-fd5a-4802-ba56-a4df7a9d5eaa
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: aginazharmhlutfy.yhaa.ink
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: aginazharmhlutfy.yhaa.ink
+  - name: 1848 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: sgm1.targoocloud.live
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: sgm1.targoocloud.live
+  - name: 2116 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: ceb8a921-ec72-4804-ae92-cbd309f2f213
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: sg-v.sshmax.xyz
+  - name: 1845 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+    server: udemy.com
     port: 80
     type: vmess
     uuid: cdcafe90-c4bd-11ed-b734-205c6d5f5d78
@@ -129,56 +161,40 @@ proxies:
       path: /3vraik6m
       headers: 
         Host: sg-3.0rd.net
-  - name: 138 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: 104.18.160.90
-    port: 8080
+  - name: 2096 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: udemy.com
+    port: 80
     type: vmess
-    uuid: 76aed4f5-5b57-4d04-f3d9-89efffd5b832
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
     cipher: auto
     tls: false
     udp: true
     skip-cert-verify: true
     servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /tg:@hkaa0
-      headers: 
-        Host: sg316.wyhkaa0.ga
-  - name: 105 🇸🇬 OVH SAS WS CDN NTLS
-    server: 104.18.160.90
-    port: 8080
-    type: vmess
-    uuid: 397489e0-a0b4-11ed-b443-1577c1651679
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: sg-ovh2.1server.co
-  - name: 901 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN TLS
-    server: 104.18.160.90
-    port: 443
-    type: vmess
-    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: jpjoq.ftvpn.xyz
     network: ws
     alterId: 0
     ws-opts: 
       path: /vmess
       headers: 
-        Host: jpjoq.ftvpn.xyz
-  - name: 464 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
-    server: 104.18.160.90
+        Host: idnusanet.vpnexecutive.my.id
+  - name: 2142 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: id.artunnel57.host
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess-tls
+      headers: 
+        Host: id.artunnel57.host
+  - name: 1922 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
+    server: udemy.com
     port: 80
     type: vmess
     uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
