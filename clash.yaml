@@ -1,6 +1,22 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
+  - name: 🚀
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: b1eea008-96a7-471c-8825-b3eee12e56a8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cloud-n7.kazekage.my.id
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: cloud-n7.kazekage.my.id
+    udp: true
   - name: 2170 🇸🇬 OVH SAS WS CDN TLS
     server: udemy.com
     port: 443
