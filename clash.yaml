@@ -1,23 +1,103 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 🚀
+  - name: 27 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
     server: 104.26.7.171
-    port: 443
+    port: 80
     type: vmess
-    uuid: b1eea008-96a7-471c-8825-b3eee12e56a8
-    alterId: 0
+    uuid: 0034b939-9100-412e-a690-503eeccc2c83
     cipher: auto
-    tls: true
+    tls: false
+    udp: true
     skip-cert-verify: true
-    servername: cloud-n7.kazekage.my.id
+    servername: 
     network: ws
+    alterId: 0
     ws-opts: 
       path: /vmess
       headers: 
-        Host: cloud-n7.kazekage.my.id
+        Host: nusa.putrastores.xyz
+  - name: 1724 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: a444ffc0-c77d-11ed-b434-205c6d5f5d78
+    cipher: auto
+    tls: false
     udp: true
-  - name: 2170 🇸🇬 OVH SAS WS CDN TLS
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /pbxswkmu
+      headers: 
+        Host: sg-7.0rd.net
+  - name: 42 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idnusanet.vpnexecutive.my.id
+  - name: 18 🇮🇩 PT WIJAYA TRIMITRA INDONESIA WS CDN NTLS
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: d6d0e1da-dbfd-49df-80e0-53b72d7d90fc
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id-wijaya.duniavpn.site
+  - name: 1352 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 43a70e01-05f5-4dfb-bb53-9e11ecf3c617
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: nusa.putrastores.xyz
+  - name: 1721 🇸🇬 OVH SAS WS CDN NTLS
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /sshkit/ghghg/6418f564bd0df/
+      headers: 
+        Host: sg-lb.vhax.net
+  - name: 1406 🇸🇬 OVH SAS WS CDN TLS
     server: 104.26.7.171
     port: 443
     type: vmess
@@ -33,23 +113,7 @@ proxies:
       path: /vmess
       headers: 
         Host: sg1-v.sshmax.xyz
-  - name: 1798 🇸🇬 OVH SAS WS CDN TLS
-    server: 104.26.7.171
-    port: 443
-    type: vmess
-    uuid: 6aacb8f0-c1b9-11ed-b035-205c6d5f5d78
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: 98b5.v9966.shop
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: 98b5.v9966.shop
-  - name: 1842 🇸🇬 OVH SAS WS CDN TLS
+  - name: 1628 🇸🇬 OVH SAS WS CDN TLS
     server: 104.26.7.171
     port: 443
     type: vmess
@@ -65,11 +129,11 @@ proxies:
       path: /JAGOANSSH/
       headers: 
         Host: sg3-ray.ipservers.xyz
-  - name: 1818 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+  - name: 1602 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
     server: 104.26.7.171
     port: 80
     type: vmess
-    uuid: 28c985b0-c1b9-11ed-b530-205c6d5f5d78
+    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
     cipher: auto
     tls: false
     udp: true
@@ -80,88 +144,8 @@ proxies:
     ws-opts: 
       path: /
       headers: 
-        Host: cbb8.v9966.shop
-  - name: 1863 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: ec703de0-c349-11ed-b030-205c6d5f5d78
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /1n2a7lej
-      headers: 
-        Host: sg-3.0rd.net
-  - name: 2098 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: 1lk9q.ftvpn.me
-  - name: 5 🇸🇬 DIGITALOCEAN-ASN WS CDN TLS
-    server: 104.26.7.171
-    port: 443
-    type: vmess
-    uuid: 4d3932ac-fd5a-4802-ba56-a4df7a9d5eaa
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: aginazharmhlutfy.yhaa.ink
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: aginazharmhlutfy.yhaa.ink
-  - name: 1848 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
-    server: 104.26.7.171
-    port: 443
-    type: vmess
-    uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: sgm1.targoocloud.live
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: sgm1.targoocloud.live
-  - name: 2116 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: ceb8a921-ec72-4804-ae92-cbd309f2f213
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg-v.sshmax.xyz
-  - name: 1845 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+        Host: zzsg.nmsl.pics
+  - name: 1570 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
     server: 104.26.7.171
     port: 80
     type: vmess
@@ -177,99 +161,3 @@ proxies:
       path: /3vraik6m
       headers: 
         Host: sg-3.0rd.net
-  - name: 1323 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: jpjoq.ftvpn.xyz
-  - name: 3 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: idnusanet.vpnexecutive.my.id
-  - name: 1323 🇮🇩 ALIBABA US TECHNOLOGY CO., LTD. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: b9f6ef01-a4a6-4a95-8c22-59666be14599
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: jpjoq.ftvpn.xyz
-  - name: 16 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: f500a633-9882-4aa7-8cff-f1f72b015dee
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: nusa.putrastores.xyz
-  - name: 16 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: f500a633-9882-4aa7-8cff-f1f72b015dee
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: nusa.putrastores.xyz
-  - name: 3 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: idnusanet.vpnexecutive.my.id
