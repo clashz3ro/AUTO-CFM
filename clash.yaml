@@ -1,104 +1,8 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 27 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 0034b939-9100-412e-a690-503eeccc2c83
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: nusa.putrastores.xyz
-  - name: 1724 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: a444ffc0-c77d-11ed-b434-205c6d5f5d78
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /pbxswkmu
-      headers: 
-        Host: sg-7.0rd.net
-  - name: 42 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: idnusanet.vpnexecutive.my.id
-  - name: 18 🇮🇩 PT WIJAYA TRIMITRA INDONESIA WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: d6d0e1da-dbfd-49df-80e0-53b72d7d90fc
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: id-wijaya.duniavpn.site
-  - name: 1352 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 43a70e01-05f5-4dfb-bb53-9e11ecf3c617
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: nusa.putrastores.xyz
-  - name: 1721 🇸🇬 OVH SAS WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: 6fea1649-425b-4092-bf53-29792152c925
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /sshkit/ghghg/6418f564bd0df/
-      headers: 
-        Host: sg-lb.vhax.net
-  - name: 1406 🇸🇬 OVH SAS WS CDN TLS
-    server: 104.26.7.171
+  - name: 1341 🇸🇬 OVH SAS WS CDN TLS
+    server: udemy.com
     port: 443
     type: vmess
     uuid: b5c98171-e5f6-4d04-bc5f-8e86ad44e9b1
@@ -113,40 +17,24 @@ proxies:
       path: /vmess
       headers: 
         Host: sg1-v.sshmax.xyz
-  - name: 1628 🇸🇬 OVH SAS WS CDN TLS
-    server: 104.26.7.171
+  - name: 1498 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
+    server: udemy.com
     port: 443
     type: vmess
-    uuid: fbfa0325-cf16-4134-b17f-e0897ad3b2db
+    uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: sg3-ray.ipservers.xyz
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /JAGOANSSH/
-      headers: 
-        Host: sg3-ray.ipservers.xyz
-  - name: 1602 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
-    server: 104.26.7.171
-    port: 80
-    type: vmess
-    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    servername: 
+    servername: sgm1.targoocloud.live
     network: ws
     alterId: 0
     ws-opts: 
       path: /
       headers: 
-        Host: zzsg.nmsl.pics
-  - name: 1570 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
-    server: 104.26.7.171
+        Host: sgm1.targoocloud.live
+  - name: 1466 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+    server: udemy.com
     port: 80
     type: vmess
     uuid: cdcafe90-c4bd-11ed-b734-205c6d5f5d78
@@ -161,3 +49,99 @@ proxies:
       path: /3vraik6m
       headers: 
         Host: sg-3.0rd.net
+  - name: 2127 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /
+      headers: 
+        Host: zzsg.nmsl.pics
+  - name: 2244 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+    server: udemy.com
+    port: 8880
+    type: vmess
+    uuid: be35f39f-571d-4240-8ab2-8055aae3a53e
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /savcus
+      headers: 
+        Host: sg2.seeworld.pro
+  - name: 2096 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: freenode.designnovation-me.workers.dev
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /id.artunnel57.host/vmess-tls
+      headers: 
+        Host: freenode.designnovation-me.workers.dev
+  - name: 2092 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idnusanet.vpnexecutive.my.id
+  - name: 2279 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: id.artunnel57.host
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess-tls
+      headers: 
+        Host: id.artunnel57.host
+  - name: 1535 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: a444ffc0-c77d-11ed-b434-205c6d5f5d78
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /pbxswkmu
+      headers: 
+        Host: sg-7.0rd.net
