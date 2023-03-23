@@ -160,6 +160,7 @@ proxy-groups:
   proxies:
   - KONEKSI-PING
   - KONEKSI-FALLBACK
+  - KONEKSI-LOADBALANCE
 - name: KONEKSI-PING
   type: url-test    
   interval: '60'
