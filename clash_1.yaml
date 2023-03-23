@@ -1,7 +1,7 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 1341  OVH SAS WS CDN TLS
+  - name: 1341 🇸🇬 OVH SAS WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -17,7 +17,7 @@ proxies:
       path: /vmess
       headers: 
         Host: sg1-v.sshmax.xyz
-  - name: 1498  AKAMAI CONNECTED CLOUD WS CDN TLS
+  - name: 1498 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -33,7 +33,7 @@ proxies:
       path: /
       headers: 
         Host: sgm1.targoocloud.live
-  - name: 1466  CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
+  - name: 1466 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
@@ -49,7 +49,7 @@ proxies:
       path: /3vraik6m
       headers: 
         Host: sg-3.0rd.net
-  - name: 2127  AKAMAI CONNECTED CLOUD WS CDN NTLS
+  - name: 2127 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
@@ -65,7 +65,7 @@ proxies:
       path: /
       headers: 
         Host: zzsg.nmsl.pics
-  - name: 2244  DIGITALOCEAN-ASN WS CDN NTLS
+  - name: 2244 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
     server: udemy.com
     port: 8880
     type: vmess
@@ -81,7 +81,7 @@ proxies:
       path: /savcus
       headers: 
         Host: sg2.seeworld.pro
-  - name: 2096  PT CLOUD HOSTING INDONESIA WS CDN TLS
+  - name: 2096 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -97,7 +97,7 @@ proxies:
       path: /id.artunnel57.host/vmess-tls
       headers: 
         Host: freenode.designnovation-me.workers.dev
-  - name: 2092  MEDIA ANTAR NUSA PT. WS CDN NTLS
+  - name: 2092 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
@@ -113,7 +113,7 @@ proxies:
       path: /vmess
       headers: 
         Host: idnusanet.vpnexecutive.my.id
-  - name: 2279  PT CLOUD HOSTING INDONESIA WS CDN TLS
+  - name: 2279 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -129,7 +129,7 @@ proxies:
       path: /vmess-tls
       headers: 
         Host: id.artunnel57.host
-  - name: 1535  ATHA MEDIA PRIMA CV. WS CDN NTLS
+  - name: 1535 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
