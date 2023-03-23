@@ -15,3 +15,35 @@ proxies:
       headers: 
         Host: dynamic-sg2b.obfs.xyz
     udp: true
+  - name: v2ray2.udpgw.com
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 128b77cc-0b90-4dde-a12c-5c405ec080b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray2.udpgw.com
+    network: ws
+    ws-opts: 
+      path: /worryfree
+      headers: 
+        Host: v2ray2.udpgw.com
+    udp: true
+ - name: SG+VMESS-WS(2023-03-30)
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 70111940-c99b-11ed-b8bf-1239d0255272
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.socifiles.com
+    network: ws
+    ws-opts: 
+      path: /vmws
+      headers: 
+        Host: sg3.socifiles.com
+    udp: true
