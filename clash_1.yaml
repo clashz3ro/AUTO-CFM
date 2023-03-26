@@ -1,7 +1,23 @@
 proxies:
     # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
     # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 1701 🇸🇬 OVH SAS WS CDN TLS
+  - name: 1 🇸🇬 DIGITALOCEAN-ASN WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: fightertunnel.xyz
+  - name: 1720 🇸🇬 OVH SAS WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -17,7 +33,23 @@ proxies:
       path: /vmess
       headers: 
         Host: sg1-v.sshmax.xyz
-  - name: 1664 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
+  - name: 1730 🇸🇬 OVH SAS WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: a72bd7a7-732d-46c1-8274-bf16bca30e78
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: sg1-v.sshmax.xyz
+  - name: 1716 🇸🇬 AKAMAI CONNECTED CLOUD WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -26,14 +58,14 @@ proxies:
     tls: true
     udp: true
     skip-cert-verify: true
-    servername: sgm2.targoocloud.live
+    servername: sgm1.targoocloud.live
     network: ws
     alterId: 0
     ws-opts: 
       path: /
       headers: 
-        Host: sgm2.targoocloud.live
-  - name: 1379 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN TLS
+        Host: sgm1.targoocloud.live
+  - name: 1725 🇸🇬 CONTABO ASIA PRIVATE LIMITED WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -49,59 +81,11 @@ proxies:
       path: /vmess
       headers: 
         Host: sg-v.sshmax.xyz
-  - name: 1669 🇸🇬 HURRICANE WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: pyptom.cf
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vpnneo
-      headers: 
-        Host: pyptom.cf
-  - name: 1475 🇸🇬 8 BURN ROAD# 15-13, TRIVEX WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: acd17818-d434-49ae-80a6-d194bcaf6392
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: sgray.jagoan.vip
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vvip
-      headers: 
-        Host: sgray.jagoan.vip
-  - name: 1389 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: id.artunnel57.host
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess-tls
-      headers: 
-        Host: id.artunnel57.host
-  - name: 1004 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
+  - name: 5 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
     server: udemy.com
     port: 80
     type: vmess
-    uuid: a444ffc0-c77d-11ed-b434-205c6d5f5d78
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
     cipher: auto
     tls: false
     udp: true
@@ -110,10 +94,10 @@ proxies:
     network: ws
     alterId: 0
     ws-opts: 
-      path: /pbxswkmu
+      path: /vmess
       headers: 
-        Host: sg-7.0rd.net
-  - name: 1696 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+        Host: idnusanet.vpnexecutive.my.id
+  - name: 1634 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
     server: udemy.com
     port: 443
     type: vmess
@@ -129,3 +113,51 @@ proxies:
       path: /id.artunnel57.host/vmess-tls
       headers: 
         Host: freenode.designnovation-me.workers.dev
+  - name: 5 🇮🇩 MEDIA ANTAR NUSA PT. WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: idnusanet.vpnexecutive.my.id
+  - name: 1634 🇮🇩 PT CLOUD HOSTING INDONESIA WS CDN TLS
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    servername: freenode.designnovation-me.workers.dev
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /id.artunnel57.host/vmess-tls
+      headers: 
+        Host: freenode.designnovation-me.workers.dev
+  - name: 1617 🇮🇩 ATHA MEDIA PRIMA CV. WS CDN NTLS
+    server: udemy.com
+    port: 80
+    type: vmess
+    uuid: a444ffc0-c77d-11ed-b434-205c6d5f5d78
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    alterId: 0
+    ws-opts: 
+      path: /pbxswkmu
+      headers: 
+        Host: sg-7.0rd.net
