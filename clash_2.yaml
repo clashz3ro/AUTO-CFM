@@ -1,49 +1,81 @@
 proxies:
-  - name: dynamic-sg2b.obfs.xyz
+  - name: v2ray3.udpgw.com
     server: udemy.com
     port: 443
     type: vmess
-    uuid: 9de0bbed-d62d-44aa-80e8-7a9875c786c4
+    uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
+    servername: udemy.com
     network: ws
     ws-opts: 
       path: /worryfree
       headers: 
-        Host: dynamic-sg2b.obfs.xyz
+        Host: v2ray3.udpgw.com
     udp: true
-  - name: v2ray2.udpgw.com
+  - name: R443:Vmess Singapore OVH-2 2023-04-03
     server: udemy.com
     port: 443
     type: vmess
-    uuid: 128b77cc-0b90-4dde-a12c-5c405ec080b3
+    uuid: 0e8045b0-cc53-11ed-b634-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: v2ray2.udpgw.com
+    servername: sg-5.0rd.net
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /lrq5v7mg
       headers: 
-        Host: v2ray2.udpgw.com
+        Host: sg-5.0rd.net
     udp: true
-  - name: SG+VMESS-WS(2023-03-30)
+  - name: R443:Vmess Singapore HE-1 2023-04-03
     server: udemy.com
     port: 443
     type: vmess
-    uuid: 70111940-c99b-11ed-b8bf-1239d0255272
+    uuid: 49df4b80-cc53-11ed-b937-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg3.socifiles.com
+    servername: sg-1.0rd.net
     network: ws
     ws-opts: 
-      path: /vmws
+      path: /6jam8wh4
       headers: 
-        Host: sg3.socifiles.com
+        Host: sg-1.0rd.net
     udp: true
+  - name: R443:Vmess Singapore Melbi 2 2023-04-03
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: 7dd1f960-cc53-11ed-b232-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-8.0rd.net
+    network: ws
+    ws-opts: 
+      path: /cf7w42mt
+      headers: 
+        Host: sg-8.0rd.net
+    udp: true    
+  - name: R443:Vmess Singapore AMP-2 2023-04-03
+    server: udemy.com
+    port: 443
+    type: vmess
+    uuid: a563d520-cc53-11ed-b937-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-7.0rd.net
+    network: ws
+    ws-opts: 
+      path: /5yabz3vk
+      headers: 
+        Host: sg-7.0rd.net
+    udp: true    
