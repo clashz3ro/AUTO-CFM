@@ -25,3 +25,19 @@ proxies:
       headers: 
         Host: sg-3.test3.net
     udp: true
+  - name: socks5-ws-tls-whyvpn-uanenejaoo
+    type: socks5
+    server: udemy.com
+    port: 443
+    username: whyvpn-uanenejaoo
+    password: 11111
+    udp: true
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: sg1.kitu.xyz
+      path: /socks5ws/
+      tls: true
+      skip-cert-verify: true
+      mux: false
+      sni: sg1.kitu.xyz
