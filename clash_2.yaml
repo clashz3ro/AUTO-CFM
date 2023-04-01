@@ -1,81 +1,14 @@
 proxies:
-  - name: v2ray3.udpgw.com
+  - name: amp
     server: udemy.com
     port: 443
-    type: vmess
-    uuid: a9481600-ef36-402a-a0e5-5547bfd7b87c
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 3d323340-d068-11ed-a188-1239d0255272
     skip-cert-verify: true
-    servername: udemy.com
+    sni: sg-2.test3.net
     network: ws
     ws-opts: 
-      path: /worryfree
+      path: /howdy
       headers: 
-        Host: v2ray3.udpgw.com
+        Host: sg-2.test3.net
     udp: true
-  - name: R443:Vmess Singapore OVH-2 2023-04-03
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: 0e8045b0-cc53-11ed-b634-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-5.0rd.net
-    network: ws
-    ws-opts: 
-      path: /lrq5v7mg
-      headers: 
-        Host: sg-5.0rd.net
-    udp: true
-  - name: R443:Vmess Singapore HE-1 2023-04-03
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: 49df4b80-cc53-11ed-b937-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-1.0rd.net
-    network: ws
-    ws-opts: 
-      path: /6jam8wh4
-      headers: 
-        Host: sg-1.0rd.net
-    udp: true
-  - name: R443:Vmess Singapore Melbi 2 2023-04-03
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: 7dd1f960-cc53-11ed-b232-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-8.0rd.net
-    network: ws
-    ws-opts: 
-      path: /cf7w42mt
-      headers: 
-        Host: sg-8.0rd.net
-    udp: true    
-  - name: R443:Vmess Singapore AMP-2 2023-04-03
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: a563d520-cc53-11ed-b937-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-7.0rd.net
-    network: ws
-    ws-opts: 
-      path: /5yabz3vk
-      headers: 
-        Host: sg-7.0rd.net
-    udp: true    
