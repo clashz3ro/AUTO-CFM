@@ -12,3 +12,16 @@ proxies:
       headers: 
         Host: sg-2.test3.net
     udp: true
+  - name: ovh
+    server: udemy.com
+    port: 443
+    type: trojan
+    password: f9badb10-d069-11ed-8e7e-1239d0255272
+    skip-cert-verify: true
+    sni: sg-3.test3.net
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sg-3.test3.net
+    udp: true
