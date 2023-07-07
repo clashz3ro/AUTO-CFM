@@ -1,99 +1,72 @@
 proxies:
-    # Clash have inconsistent configuration for SS between V2ray and OBFS plugin
-    # So i'm lazy to implement those plugins, unless someone PR it or until i got very motivated
-  - name: 674  OVH SAS WS CDN TLS
-    server: udemy.com
+  - name: vpnstunnel-kqppeijnr
+    server: 104.22.25.131
     port: 443
-    type: vmess
-    uuid: ea8f1750-862d-49f5-8819-5882035fbac1
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 1c791ac4-ff46-4708-9cee-596040266b58
     udp: true
     skip-cert-verify: true
-    servername: sg1-v.sshmax.xyz
     network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg1-v.sshmax.xyz
-  - name: 873  OVH SAS WS CDN NTLS
-    server: udemy.com
+    sni: vray.vpnjos.live
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: vray.vpnjos.live
+  - name: vpnstunnel-kwllektkt
+    server: 104.22.25.131
     port: 80
-    type: vmess
-    uuid: ffdcb2aa-c25b-42c9-a37d-b5fc13ea68c6
+    type: vless
+    uuid: 157f9b7a-dd91-4c00-b643-4897e654585c
     cipher: auto
     tls: false
     udp: true
     skip-cert-verify: true
-    servername: 
     network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess
-      headers: 
-        Host: sg6.vm.xservs.xyz
-  - name: 835  DIGITALOCEAN-ASN WS CDN TLS
-    server: udemy.com
-    port: 443
+    ws-opts:
+      path: /xdo.vpnjos.live/vless
+      headers:
+        Host: xdo.vpnjos.live
+  - name: vpnstunnel-lpaorjjrl
+    server: 104.22.25.131
+    port: 80
     type: vmess
-    uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+    uuid: 2e2808bf-ee3d-4621-a1fa-0b7c769cb9b0
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
-    servername: ebook-costs-symptoms-age.trycloudflare.com
     network: ws
     alterId: 0
-    ws-opts: 
-      path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-      headers: 
-        Host: ebook-costs-symptoms-age.trycloudflare.com
-  - name: 1065  DIGITALOCEAN-ASN WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: afe07da4-e28c-4921-affa-4a5fb4696c04
+    ws-opts:
+      path: /xray.vpnjos.live/vmess
+      headers:
+        Host: xray.vpnjos.live
+  - name: vpnstunnel-oejdalal
+    server: 104.22.25.131
+    port: 80
+    type: vless
+    uuid: 2ab34d06-2a6b-4ab0-8761-4feaa91175dd
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
-    servername: dynamic-sg2b.obfs.xyz
     network: ws
-    alterId: 0
-    ws-opts: 
-      path: /worryfree
-      headers: 
-        Host: dynamic-sg2b.obfs.xyz
-  - name: 652  AKAMAI CONNECTED CLOUD WS CDN TLS
-    server: udemy.com
-    port: 443
+    ws-opts:
+      path: /ray.vpnjos.live/vless
+      headers:
+        Host: ray.vpnjos.live
+  - name: vpnstunnel-ksnfkrk
+    server: 104.22.25.131
+    port: 80
     type: vmess
-    uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5
+    uuid: 9f04538c-4065-46a6-b538-218fb80bab6c
     cipher: auto
-    tls: true
+    tls: false
     udp: true
     skip-cert-verify: true
-    servername: sgm1.targoocloud.live
     network: ws
     alterId: 0
-    ws-opts: 
-      path: /
-      headers: 
-        Host: sgm1.targoocloud.live
-  - name: 990  PT CLOUD HOSTING INDONESIA WS CDN TLS
-    server: udemy.com
-    port: 443
-    type: vmess
-    uuid: ac22c927-f8c1-43b4-88db-60ec7abbf59a
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    servername: id.artunnel57.host
-    network: ws
-    alterId: 0
-    ws-opts: 
-      path: /vmess-tls
-      headers: 
-        Host: id.artunnel57.host
+    ws-opts:
+      path: /ray.vpnjos.live/vmess
+      headers:
+        Host: ray.vpnjos.live
