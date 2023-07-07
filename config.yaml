@@ -206,37 +206,37 @@ rule-providers:
     type: http
     behavior: domain
     path: ./confs/rule-game.yaml
-    url: https://bit.ly/3X2SvcL
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-game.yaml
     interval: 60
   Sosmed:
     type: http
     behavior: domain
     path: ./confs/rule-sosmed.yaml
-    url: https://bit.ly/3I4HG5I
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-sosmed.yaml
     interval: 60
   Stream:
     type: http
     behavior: domain
     path: ./confs/rule-stream.yaml
-    url: https://bit.ly/3PU6RJP
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-stream.yaml
     interval: 60
   Olshop:
     type: http
     behavior: domain
     path: ./confs/rule-olshop.yaml
-    url: https://bit.ly/3Wp85PH
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-olshop.yaml
     interval: 60
   Bank:
     type: http
     behavior: domain
     path: ./confs/rule-bank.yaml
-    url: https://bit.ly/3hN7JUh
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-bank.yaml
     interval: 60
   Whatsapp:
     type: http
     behavior: domain
     path: ./confs/rule-whatsapp.yaml
-    url: http://bit.ly/3Vkdh6g
+    url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-whatsapp.yaml
     interval: 60
 script:
   code: |
