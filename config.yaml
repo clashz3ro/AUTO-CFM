@@ -246,9 +246,9 @@ rule-providers:
     interval: 60
   Personalads:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
-    path: "./rule_provider/rule_personalads.yaml"
+    path: "./confs/rule_personalads.yaml"
     interval: 86400
 script:
   code: |
