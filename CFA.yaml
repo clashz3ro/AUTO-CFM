@@ -1,7 +1,14 @@
+rule-providers:
+  clash:
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    path: ./providers/rule-provider_clash.yaml
+    interval: 86400
 proxy-providers:
   fool:
     type: http
-    url: "http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.22.25.131&network=ws&arg=xudp,key:value&mode=cdn&pass=qk4ndl7g"
+    url: "http://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=172.67.73.39&sni=meet.google.com&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&pass=password&limit=2"
     interval: 3600
     path: ./provider.yaml
     health-check:
@@ -16,3 +23,4 @@ proxy-groups:
       - fool
 rules:
   - MATCH,Tunnel
+  - RULE-SET,clash,REJECT  
