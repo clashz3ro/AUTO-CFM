@@ -118,10 +118,10 @@ proxy-providers:
       url: https://cp.cloudflare.com/generate_204
 proxies:
 proxy-groups:
-  - name: Tunnel
-    type: url-test
-    use:
-      - fool
+- name: Tunnel
+  type: url-test
+  proxies:
+  - fool
 - name: AdBlock
   type: select
   proxies:
