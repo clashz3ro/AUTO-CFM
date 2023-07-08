@@ -238,6 +238,18 @@ rule-providers:
     path: ./confs/rule-whatsapp.yaml
     url: https://raw.githubusercontent.com/clashz3ro/AUTO-CFA/main/rule-whatsapp.yaml
     interval: 60
+  AdBlock:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
+    path: "./confs/rule_basicads.yaml"
+    interval: 60
+  Personalads:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
+    path: "./rule_provider/rule_personalads.yaml"
+    interval: 86400
 script:
   code: |
     def main(ctx, metadata):
@@ -280,11 +292,14 @@ script:
         return "SIMASTER-MAGISK-AUTO"
 rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- DOMAIN-SUFFIX,googlesyndication.com,SIMASTER-MAGISK-AUTO
 - RULE-SET,Game,GAMING
 - RULE-SET,Sosmed,SIMASTER-MAGISK-AUTO
 - RULE-SET,Stream,SIMASTER-MAGISK-AUTO
 - RULE-SET,Olshop,SIMASTER-MAGISK-AUTO
 - RULE-SET,Bank,SIMASTER-MAGISK-AUTO
 - RULE-SET,Whatsapp,WHATSAPP
+- RULE-SET,AdBlock,AdBlock
+- RULE-SET,Personalads,AdBlock
 - GEOIP,ID,SIMASTER-MAGISK-AUTO
 - MATCH,SIMASTER-MAGISK-AUTO
