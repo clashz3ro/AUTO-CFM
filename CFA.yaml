@@ -8,7 +8,7 @@ rule-providers:
 proxy-providers:
   fool:
     type: http
-    url: "http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.22.25.131&network=ws&arg=xudp,key:value&mode=cdn&pass=qk4ndl7g"
+    url: "http://fool.azurewebsites.net/get?limit=10&format=clash&cc=SG,ID&cdn=104.22.25.131&network=ws&arg=xudp,key:value&mode=cdn&pass=qk4ndl7g"
     interval: 3600
     path: ./provider.yaml
     health-check:
