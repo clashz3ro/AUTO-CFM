@@ -19,7 +19,7 @@ proxy-providers:
      type: http
      url: "https://raw.githubusercontent.com/clashz3ro/AUTO-CFM/main/clash_1.yaml"
      interval: 240
-     path: ./provider.yaml
+     path: ./github.yaml
      health-check:
        enable: true
        interval: 240
