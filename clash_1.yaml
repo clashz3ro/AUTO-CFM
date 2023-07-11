@@ -1,9 +1,67 @@
 proxies:
-  - name: vpnstunnel-kqppeijnr
+  - name: vpnstunnel-ksnfklll
+    server: 104.22.25.131
+    port: 80
+    type: vmess
+    uuid: 78292a69-9b3c-47ec-a6c2-f37217280de6
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    alterId: 0
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: ray.vpnjos.live
+  - name: vpnstunnel-osnnf
+    server: 104.22.25.131
+    port: 80
+    type: vless
+    uuid: 5e3b2711-899a-4de4-8af6-7b4a31e6ccc5
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: vray.vpnjos.live
+  - name: vpnstunnel-kakrnnaa
+    server: 104.22.25.131
+    port: 80
+    type: vmess
+    uuid: db220087-7f87-42ce-a1fc-b3251b289904
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    alterId: 0
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: xray.vpnjos.live
+  - name: vpnstunnel-iwjnaaa
+    server: 104.22.25.131
+    port: 80
+    type: vless
+    uuid: 89effce9-362d-4d74-9d07-6e52b338b1cc
+    cipher: auto
+    tls: false
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: xdo.vpnjos.live
+  - name: vpnstunnel-ksmafg
     server: 104.22.25.131
     port: 443
     type: trojan
-    password: 1c791ac4-ff46-4708-9cee-596040266b58
+    password: dece6936-d4bf-45d5-9998-066c8d3190be
     udp: true
     skip-cert-verify: true
     network: ws
@@ -12,33 +70,3 @@ proxies:
       path: /trojan
       headers:
         Host: vray.vpnjos.live
-  - name: vpnstunnel-lpaorjjrl
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: 2e2808bf-ee3d-4621-a1fa-0b7c769cb9b0
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /xray.vpnjos.live/vmess
-      headers:
-        Host: xray.vpnjos.live
-  - name: vpnstunnel-ksnfkrk
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: 9f04538c-4065-46a6-b538-218fb80bab6c
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /ray.vpnjos.live/vmess
-      headers:
-        Host: ray.vpnjos.live
