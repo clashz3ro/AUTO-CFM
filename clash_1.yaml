@@ -14,20 +14,6 @@ proxies:
       path: /vmess
       headers:
         Host: ray.vpnjos.live
-  - name: vpnstunnel-osnnf
-    server: 104.22.25.131
-    port: 80
-    type: vless
-    uuid: 5e3b2711-899a-4de4-8af6-7b4a31e6ccc5
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: vray.vpnjos.live
   - name: vpnstunnel-kakrnnaa
     server: 104.22.25.131
     port: 80
@@ -43,20 +29,6 @@ proxies:
       path: /vmess
       headers:
         Host: xray.vpnjos.live
-  - name: vpnstunnel-iwjnaaa
-    server: 104.22.25.131
-    port: 80
-    type: vless
-    uuid: 89effce9-362d-4d74-9d07-6e52b338b1cc
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: xdo.vpnjos.live
   - name: vpnstunnel-ksmafg
     server: 104.22.25.131
     port: 443
