@@ -33,4 +33,6 @@ proxy-groups:
       - fool
 rules:
   - MATCH,Tunnel
-  - RULE-SET,clash,REJECT  
+  - RULE-SET,clash,REJECT
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - DOMAIN-SUFFIX,googlesyndication.com,Tunnel
