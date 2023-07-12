@@ -36,7 +36,6 @@ rules:
   - RULE-SET,clash,REJECT
   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
   - DOMAIN-SUFFIX,googlesyndication.com,Tunnel
-  - DOMAIN-SUFFIX,pagead2.googlesyndication.com
   - DOMAIN-SUFFIX,pagead2.googleadservices.com
   - DOMAIN-SUFFIX,ads.google.com
   - DOMAIN-SUFFIX,adservice.google.com
