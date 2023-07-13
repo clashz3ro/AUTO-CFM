@@ -57,3 +57,5 @@ rules:
   - DOMAIN-SUFFIX,advice-ads.s3.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,affiliationjs.s3.amazonaws.com,REJECT
   - DOMAIN-SUFFIX,advertising-api-eu.amazon.com,REJECT
+  - DOMAIN-SUFFIX,analytics.s3.amazonaws.com,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
