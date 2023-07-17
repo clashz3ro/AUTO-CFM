@@ -1,87 +1,14 @@
 proxies:
-  - name: vpnstunnel-kjhgcbmm
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: f290aabc-cbf6-40fc-b261-3f576d5ded1a
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: vray.vpnjos.live
-  - name: vpnstunnel-xifisfjkk
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: 0ba28d7e-f54f-4c14-bc53-589a1223580c
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: xdo.vpnjos.live
-  - name: vpnstunnel-xcfsases
+  - name: vpnstunnel-ajirbn
     server: 104.22.25.131
     port: 443
     type: trojan
-    password: c88f296b-40c8-4a1a-849d-64d2df94148b
+    password: 0ee4515b-abe4-4617-b02f-b46293e2deef
     udp: true
     skip-cert-verify: true
     network: ws
-    sni: xray.vpnjos.live
+    sni: vpnst8k81m.dienakinaja.biz.id
     ws-opts:
       path: /trojan
       headers:
-        Host: xray.vpnjos.live
-  - name: vpnstunnel-ksnfklll
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: 78292a69-9b3c-47ec-a6c2-f37217280de6
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ray.vpnjos.live
-  - name: vpnstunnel-kakrnnaa
-    server: 104.22.25.131
-    port: 80
-    type: vmess
-    uuid: db220087-7f87-42ce-a1fc-b3251b289904
-    cipher: auto
-    tls: false
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    alterId: 0
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: xray.vpnjos.live
-  - name: vpnstunnel-ksmafg
-    server: 104.22.25.131
-    port: 443
-    type: trojan
-    password: dece6936-d4bf-45d5-9998-066c8d3190be
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    sni: vray.vpnjos.live
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: vray.vpnjos.live
+        Host: vpnst8k81m.dienakinaja.biz.id
