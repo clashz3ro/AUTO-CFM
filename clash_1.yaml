@@ -1,14 +1,17 @@
 proxies:
-  - name: vpnstunnel-ajirbn
-    server: 104.22.25.131
-    port: 443
-    type: trojan
-    password: 0ee4515b-abe4-4617-b02f-b46293e2deef
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    sni: vpnst8k81m.dienakinaja.biz.id
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: vpnst8k81m.dienakinaja.biz.id
+#========= Vmess WS =========
+- name: zzx_hidessh
+  type: vmess
+  server: 104.18.2.2
+  port: 443
+  uuid: zzx_hidessh
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: viprext.my.id
+  network: ws
+  ws-opts:
+    path: "/vmess"
+    headers: viprext.my.id
