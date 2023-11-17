@@ -200,6 +200,12 @@ proxy-groups:
     - DIRECT
   url: http://www.gstatic.com/generate_204
   interval: '60'
+- name: AdBlock
+  type: select
+  disable-udp: false
+  proxies:
+    - SIMASTER-MAGISK-AUTO
+    - REJECT
 rule-providers:
   Game:
     type: http
