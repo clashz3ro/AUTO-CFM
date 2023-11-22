@@ -10,9 +10,9 @@ proxies:
     udp: true
     skip-cert-verify: true
     tls: true
-    servername: viprext.my.id
+    servername: sgd-viprext.my.id
     network: ws
     ws-opts:
       path: "/vmess"
       headers:
-        Host: viprext.my.id
+        Host: sgd-viprext.my.id
