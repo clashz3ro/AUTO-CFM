@@ -1,10 +1,10 @@
 proxies:
 #========= Vmess WS =========
-  - name: zzx_hidessh
+  - name: zero_hidessh
     type: vmess
     server: 104.18.2.2
     port: 80
-    uuid: zzx_hidessh
+    uuid: zero_hidessh
     alterId: 0
     cipher: auto
     udp: true
