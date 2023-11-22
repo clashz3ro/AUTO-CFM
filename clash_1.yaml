@@ -3,13 +3,13 @@ proxies:
   - name: zzx_hidessh
     type: vmess
     server: 104.18.2.2
-    port: 443
+    port: 80
     uuid: zzx_hidessh
     alterId: 0
     cipher: auto
     udp: true
     skip-cert-verify: true
-    tls: true
+    tls: false
     servername: sgd-viprext.my.id
     network: ws
     ws-opts:
